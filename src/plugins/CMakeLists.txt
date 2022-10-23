@@ -19,3 +19,7 @@ endif ()
 if (GROWL_ANDROID)
 	add_subdirectory(android)
 endif ()
+
+if (GROWL_DUMMY)
+	add_subdirectory(dummy)
+endif ()
